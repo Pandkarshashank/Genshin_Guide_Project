@@ -92,17 +92,44 @@ details{
     font-size: 40px;
 }
 .character.description{
+    font-size:25px;
+    font-weight:none;
+    display: inline;
+    color: black;
+}
+.character.description p{
     font-size:20px;
     font-weight:none;
+    color: black;
+}
+.character.description p:hover{
+    font-size:20px;
+    font-weight:none;
+    color: black;
+}
+.character.description a{
+    color:black;
+    text-decoration:none;
+}
+.character.description a:hover{
+    color:white;
+    text-decoration:none;
 }
 table td{
     font-size:20px;
     font-family:arial;
     font-weight: bold;
     margin:0 auto;
-    display: block;
-    padding-left: 25rem;
+    display: flex;
+    padding-left: 21rem;
+    gap: 2rem;
+    align-items: center;
 }
-table{
-    padding-top: 4rem;
+table .Weapons,.Artifacts td{
+    border-collapse:collapse;
+    border-color: black;
+    border-width: 5px;
+    border-spacing: 5px;
 }
+
+
