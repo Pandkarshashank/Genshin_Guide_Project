@@ -61,27 +61,40 @@ nav ul{
 }
 .image{
     width:100%;
-    display: block;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
 }
 .image img{
     width:100%;
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
+}
+.image p{
+    font-size:75px;
+    width:80%;
+    padding-bottom: 5rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 5rem;
+    position:relative;
+    left:5rem;
 }
 .content{
     width: 85%;
     background-color:rgb(240, 248, 255,0.3);
     margin: 0 auto;
     text-align: center;
-    padding: 15rem;
+    padding: 10rem;
     border-radius:15px;
     min-height: 300px;
     margin-bottom: 10rem;
+    
 }
 details{
     font-size:25px;
     font-family:arial;
     font-weight: bold;
+    position:relative;
+    left:5rem;
 }
 details:hover{
     border: none;
@@ -130,6 +143,12 @@ table .Weapons,.Artifacts td{
     border-color: black;
     border-width: 5px;
     border-spacing: 5px;
+}
+table{
+    color: black;
+}
+table td:hover{
+    color: white;
 }
 
 
