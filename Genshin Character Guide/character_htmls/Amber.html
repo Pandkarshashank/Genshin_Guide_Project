@@ -2,63 +2,38 @@
 <html>
     <head>
         <title>Genshin Character Guide</title>
-        <style>
-            img.Character{
-                width: 750px;
-                border-radius: 30px;
-                float: right;
-               margin-right: 20px;
-               margin-bottom: 50px;
-            }
-            h3{
-                    font-style: normal;
-            }
-        </style>
+        <link rel="stylesheet" href="/character_htmls/character.css">
     </head>
     <body>
-        <h1 align="left">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           
-        <font size="6.5">
-            <a href="index.html">Shashank's Code</a>
-        </font>
-        <font size="3" padding="3">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="../index.html">Home</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="/home/lenovo/Desktop/Genshin Character Guide/Character_Guide.html">Character Guide</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://genshin-impact.fandom.com/wiki/Characters#Playable_Characters">Detailed Websites</a>
-        </font>
-        </h1>
-            <br>
-            <br>
-            <h1 align="center">Insert_name</h1>
-            <img class="Character" align="center" src="/Genshin Character Guide/Character_Full_Profile"></img>
-            <br><br><br>
-            <h3  align="center">
-                <details>
+        <header class="genshinlogo">
+                <h1><a href="index.html">Genshin Guide</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/Character_Guide.html">Character Guides</a></li>
+                        <li><a href="https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki">Details</a></li>
+                        <li><a href="contact.html">Contact Info</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <section class="content">
+            <div class="image">
+                <img src="/Character_Full_Profile" alt="character image">
+            </div>
+            <div class="container">
+                <details class="description">
                     <summary>Description</summary>
-                    <h5>
-                        <summary>Description:</summary>
-                        <br>
-                        <summary>Birth Date:</summary>
-                        <br>
-                        <summary>Element:
-                            <img src="/Genshin Character Guide/Elemental"></img>
-                        </summary>
-                        <br>
-                        <summary>Special Dish: </summary>
-                        <br>
-                        <summary>Constellation: </summary>
-                    </h5>
+                        <div class="character description">
+                            <summary>Description:</summary>
+                            <summary>Birth Date:</summary>
+                            <summary>Element:
+                                <img src="/Genshin Character Guide/Elemental"></img>
+                            </summary>
+                            <summary>Special Dish: </summary>
+                            <summary>Constellation: </summary>
+                        </div>
                 </details>
-                <br>
-                <details>
+                <details class="weapons">
                     <summary>Weapons</summary>
                     <summary>
                         <table>
@@ -72,7 +47,7 @@
                     </summary>
                 </details>
                 <br>
-                <details>
+                <details class="artifacts">
                     <summary>Artifacts</summary>
                     <summary>
                         <table>
@@ -86,7 +61,7 @@
                     </summary>
                 </details>
                 <br>
-                <details>
+                <details class="stats">
                     <summary>Artifacts Stats</summary>
                     <h5>
                         <summary>
@@ -108,7 +83,7 @@
                     </h5>
                 </details>
                 <br>
-                <details>
+                <details class="talents">
                     <summary>Talents</summary>
                     <h5>
                         <summary>
@@ -134,8 +109,7 @@
                             </table>
                         </summary>
                     </details>
-                    </h5>
-            </h3>
-
+            </div>
+        </section>
     </body>
 </html>

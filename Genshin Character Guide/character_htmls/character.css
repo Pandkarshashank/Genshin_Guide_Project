@@ -66,14 +66,14 @@ nav ul{
 }
 .image img{
     width:100%;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 .content{
     width: 85%;
     background-color:rgb(240, 248, 255,0.3);
     margin: 0 auto;
     text-align: center;
-    padding: 10rem;
+    padding: 15rem;
     border-radius:15px;
     min-height: 300px;
     margin-bottom: 10rem;
@@ -82,24 +82,27 @@ details{
     font-size:25px;
     font-family:arial;
     font-weight: bold;
-    display: block;
 }
 details:hover{
     border: none;
     color: white;
 }
 details{
-    margin-top:5rem;
+    margin-top:2rem;
     font-size: 40px;
 }
 .character.description{
     font-size:20px;
     font-weight:none;
 }
-.stat{
+table td{
     font-size:20px;
     font-family:arial;
     font-weight: bold;
-    display: flex;
-    align-items: center; 
+    margin:0 auto;
+    display: block;
+    padding-left: 25rem;
+}
+table{
+    padding-top: 4rem;
 }
