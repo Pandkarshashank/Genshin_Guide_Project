@@ -10,7 +10,7 @@ html, body{
     color:black;
 }
 body{
-    background-image: url(/genshin-bg-3.jpg);
+    background-image: url(/htmls/images/genshin-bg-3.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -29,7 +29,7 @@ nav ul{
 .genshinlogo a{
     text-decoration: none;
     text-align: center;
-    color:rgb(0, 0, 0,0.4);
+    color:rgb(0, 0, 0,0.7);
 }
 .genshinlogo a:hover{
     color: aliceblue;
@@ -44,7 +44,7 @@ nav ul{
 .genshinlogo h1{
     width:40%;
     font-size:50px;
-    background-image: url(/index-modified.png);
+    background-image: url(/htmls/images/index-modified.png);
     background-size:contain;
     background-repeat: no-repeat;
 	background-position: left top;

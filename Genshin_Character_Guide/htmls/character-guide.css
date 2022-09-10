@@ -10,7 +10,7 @@ html, body{
     color:black;
 }
 body{
-    background-image: url(/genshin-impact-xiao-genshin-impact-lumine-genshin-impact-paimon-zhongli-genshin-impact-hd-wallpaper-preview.jpg);
+    background-image: url(/htmls/images/genshin-bg-2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -45,7 +45,7 @@ nav ul{
 .genshinlogo h1{
     width:40%;
     font-size:50px;
-    background-image: url(/index-modified.png);
+    background-image: url(/htmls/images/index-modified.png);
     background-size:contain;
     background-repeat: no-repeat;
 	background-position: left top;
